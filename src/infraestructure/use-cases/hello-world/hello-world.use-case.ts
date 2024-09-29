@@ -13,7 +13,9 @@ export class HelloWorlUseCase implements IHelloWorldUseCase {
     this.logger = new Logger(HelloWorlUseCase.name);
     this.envTest = this.configService.getOrThrow<string>('TESTE');
   }
-  async execute(): Promise<void> {
+  async execute(): Promise<string> {
     this.logger.verbose(`Hello world env:TESTE:${this.envTest}`);
+
+    return 'Heloooooooo bobbb'
   }
 }

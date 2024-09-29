@@ -1,5 +1,5 @@
 export interface IHelloWorldUseCase {
-  execute(): Promise<void>;
+  execute(): Promise<string>;
 }
 
 export const IHelloWorldUseCase = Symbol('IHelloWorldUseCase');
