@@ -12,7 +12,7 @@
 ## Project setup
 
 ```bash
-$ yarn install
+$ npm install
 ```
 
 ## Compile and run the project locally
